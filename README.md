@@ -10,4 +10,4 @@ void loop(){}<--會重複執行，主程式的位置
 --------------------------------------------
 第一個程式LED 閃爍 亮0.55 暗0.55
 電路圖如下：
-!{image}(https://github.com/KE-ZHENG-ROU/jk/blob/master/4092F459-5D58-4E3F-A351-D81FAB0B066F.jpeg)
+![image](https://github.com/KE-ZHENG-ROU/jk/blob/master/4092F459-5D58-4E3F-A351-D81FAB0B066F.jpeg)
