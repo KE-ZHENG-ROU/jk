@@ -16,27 +16,28 @@ void loop(){}<--會重複執行，主程式的位置 </p>
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # 2020/09/08
 四顆LED燈同時閃爍 </p>
-void setup() { </p>
-  // put your setup code here, to run once: </p>
-pinMode (2,OUTPUT); </p>
-pinMode (3,OUTPUT); </p> 
-pinMode (4,OUTPUT); </p>
-pinMode (5,OUTPUT); </p>
-} </p>
-void loop() { </p> 
-  // put your main code here, to run repeatedly: </p>
-digitalWrite (2,LOW); </p>
-digitalWrite (3,LOW); </p>
-digitalWrite (4,LOW); </p>
-digitalWrite (5,LOW); </p>
-delay(100); </p>
-digitalWrite (2,HIGH); </p>
-digitalWrite (3,HIGH); </p>
-digitalWrite (4,HIGH); </p>
-digitalWrite (5,HIGH); </p>
-delay(100); </p>
-} </p>
-
+```c++
+void setup() {
+  // put your setup code here, to run once:
+pinMode (2,OUTPUT);
+pinMode (3,OUTPUT);
+pinMode (4,OUTPUT);
+pinMode (5,OUTPUT);
+}
+void loop() {
+  // put your main code here, to run repeatedly:
+digitalWrite (2,LOW);
+digitalWrite (3,LOW);
+digitalWrite (4,LOW);
+digitalWrite (5,LOW);
+delay(100);
+digitalWrite (2,HIGH);
+digitalWrite (3,HIGH);
+digitalWrite (4,HIGH);
+digitalWrite (5,HIGH);
+delay(100);
+}
+```
 --------------------------------------------
 電路圖如下： </p>
 ![image](https://github.com/KE-ZHENG-ROU/jk/blob/master/2DBBEB56-89E3-4B52-A44C-F983056C9875.jpeg) </p>
