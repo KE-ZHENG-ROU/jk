@@ -37,7 +37,7 @@ digitalWrite (4,HIGH);
 digitalWrite (5,HIGH);
 delay(100);
 }
-```
+``` 
 --------------------------------------------
 電路圖如下： </p>
 ![image](https://github.com/KE-ZHENG-ROU/jk/blob/master/2DBBEB56-89E3-4B52-A44C-F983056C9875.jpeg) </p>
