@@ -94,7 +94,7 @@ void loop() {
 電路圖如下：
 ![image](https://github.com/KE-ZHENG-ROU/jk/blob/master/DD1E134D-F9AF-43D5-A198-4C487D2EA0E9.jpeg)
 # 2020/09/15-3
-LED跑馬燈8顆左到右
+LED跑馬燈8顆右到左
 ```c++
 int LED=1;
 void setup() {
@@ -117,3 +117,25 @@ void loop() {
 ```
 電路圖如下：
 ![image](https://github.com/KE-ZHENG-ROU/jk/blob/master/DD1E134D-F9AF-43D5-A198-4C487D2EA0E9.jpeg) 
+
+--------------------------------------------
+# 2020/09/16-4
+呼吸燈
+```c++
+int b = 0;
+int f = 1;
+void setup() {
+  pinMode(5,OUTPUT);
+}
+void loop() {
+  analogWrite(5,b);
+  b = b + f;
+  if (b <=0)
+     f = -f;
+  if (b >= 255)
+    f = -f;
+  delay(5);
+}
+```
+電路圖如下：
+![image](https://github.com/KE-ZHENG-ROU/jk/blob/master/19459A04-DC0A-4801-B51D-8CE212B31CEC.jpeg)
