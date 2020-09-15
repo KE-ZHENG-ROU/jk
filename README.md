@@ -92,4 +92,28 @@ void loop() {
 }
 ```
 電路圖如下：
-![image](
+![image](https://github.com/KE-ZHENG-ROU/jk/blob/master/DD1E134D-F9AF-43D5-A198-4C487D2EA0E9.jpeg)
+# 2020/09/15-3
+LED跑馬燈8顆左到右
+```c++
+int LED=1;
+void setup() {
+  for (int i=10 ;i>1;i--)
+  pinMode (i, OUTPUT);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  for (int i=1; i<10; i++)
+    digitalWrite(i,HIGH);
+  if (LED<=10)
+    digitalWrite(LED,LOW);
+  else
+    LED=1;
+  LED++;
+
+ delay (500);
+}
+```
+電路圖如下：
+![image](https://github.com/KE-ZHENG-ROU/jk/blob/master/DD1E134D-F9AF-43D5-A198-4C487D2EA0E9.jpeg)
