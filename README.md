@@ -45,5 +45,25 @@ delay(100);
 --------------------------------------------
 # 2020/09/15
 LED跑馬燈
+```c++
+int LED=6;
+void setup() {
+  for (int i=2 ;i<6;i++)
+  pinMode (i, OUTPUT);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  for (int i=5; i>1; i--)
+    digitalWrite(i,HIGH);
+  if (LED>=2)
+    digitalWrite(LED,LOW);
+  else
+    LED=6;
+  LED--;
+
+ delay (500);
+}
+``` 
 電路圖如下：
 ![image](https://github.com/KE-ZHENG-ROU/jk/blob/master/4E9708B3-E93D-4508-9749-1F0F93F0AA24.jpeg)
