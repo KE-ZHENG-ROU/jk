@@ -116,4 +116,4 @@ void loop() {
 }
 ```
 電路圖如下：
-![image](https://github.com/KE-ZHENG-ROU/jk/blob/master/DD1E134D-F9AF-43D5-A198-4C487D2EA0E9.jpeg)
+![image](https://github.com/KE-ZHENG-ROU/jk/blob/master/DD1E134D-F9AF-43D5-A198-4C487D2EA0E9.jpeg) 
