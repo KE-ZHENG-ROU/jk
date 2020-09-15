@@ -96,23 +96,17 @@ void loop() {
 # 2020/09/15-3
 LED跑馬燈8顆右到左
 ```c++
-int LED=1;
+int b = 255;
+int f = -1;
 void setup() {
-  for (int i=10 ;i>1;i--)
-  pinMode (i, OUTPUT);
+  pinMode(5,OUTPUT);
 }
-
 void loop() {
-  // put your main code here, to run repeatedly:
-  for (int i=1; i<10; i++)
-    digitalWrite(i,HIGH);
-  if (LED<=10)
-    digitalWrite(LED,LOW);
-  else
-    LED=1;
-  LED++;
-
- delay (500);
+  analogWrite(5,b);
+  b = b + f;
+  if (b <=0||b >= 255)
+     f = -f;
+  delay(5);
 }
 ```
 電路圖如下：
