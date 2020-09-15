@@ -64,6 +64,6 @@ void loop() {
 
  delay (500);
 }
-``` 
+```
 電路圖如下：
 ![image](https://github.com/KE-ZHENG-ROU/jk/blob/master/4E9708B3-E93D-4508-9749-1F0F93F0AA24.jpeg)
