@@ -137,6 +137,7 @@ void loop() {
 
 --------------------------------------------
 # 2020/09/22-1
+按鈕讓LED亮起，RESET鍵暗掉
 ```
 void setup() {
  pinMode(2,INPUT);
@@ -150,6 +151,38 @@ void loop() {
   {
     digitalWrite(3,LOW);
   }
+}
+```
+電路圖如下：
+![image](https://github.com/KE-ZHENG-ROU/jk/blob/master/5ED182AD-53DF-4A06-894C-92C9442B20AB.jpeg)
+
+--------------------------------------------
+# 2020/09/22-2
+切換LED亮或滅
+```c++
+int j=1,jj=1;
+void setup() {
+ pinMode(2,INPUT);
+ pinMode(3,OUTPUT);
+ digitalWrite(2,HIGH);
+ digitalWrite(3,HIGH);
+}
+void loop() {
+  if(!digitalRead(2))
+  {
+    while(!digitalRead(2))
+    delay(20);
+    jj=0;
+  }
+  else
+  {
+    if(!jj)
+    {
+      jj=1;
+      j^=1;
+    }
+  }
+  digitalWrite(3,j);
 }
 ```
 電路圖如下：
