@@ -133,3 +133,24 @@ void loop() {
 ```
 電路圖如下：
 ![image](https://github.com/KE-ZHENG-ROU/jk/blob/master/19459A04-DC0A-4801-B51D-8CE212B31CEC.jpeg)
+
+
+--------------------------------------------
+# 2020/09/22-1
+```
+void setup() {
+ pinMode(2,INPUT);
+ pinMode(3,OUTPUT);
+ digitalWrite(3,HIGH);
+ digitalWrite(2,HIGH);
+}
+
+void loop() {
+  if(digitalRead(2) == 0)
+  {
+    digitalWrite(3,LOW);
+  }
+}
+```
+電路圖如下：
+![image](https://github.com/KE-ZHENG-ROU/jk/blob/master/5ED182AD-53DF-4A06-894C-92C9442B20AB.jpeg)
