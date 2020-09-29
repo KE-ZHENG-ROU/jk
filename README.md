@@ -189,7 +189,8 @@ void loop() {
 ![image](https://github.com/KE-ZHENG-ROU/jk/blob/master/5ED182AD-53DF-4A06-894C-92C9442B20AB.jpeg)
 
 --------------------------------------------
-# 2020/09/22-3
+# 2020/09/29-1
+切換LED模式
 ```c++
 byte ledpin[8]={3,4,5,6,7,8,9,10};
 int jj =1 ,a=-1;
@@ -243,4 +244,4 @@ void loop()
 }
 ```
 電路圖如下：
-![image]()
+![image](https://github.com/KE-ZHENG-ROU/jk/blob/master/0C73F7E5-B205-4478-A07D-879436FD531A.jpeg)
