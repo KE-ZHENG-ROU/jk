@@ -348,4 +348,4 @@ void ButtonRGB() {
 }
 ```
 電路圖如下：
-![image]()
+![image](https://github.com/KE-ZHENG-ROU/jk/blob/master/0C73F7E5-B205-4478-A07D-879436FD531A.jpeg)
